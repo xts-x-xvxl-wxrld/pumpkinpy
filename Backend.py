@@ -60,12 +60,4 @@ def update(id, title, author, year, isbn):
                 (title, author, year, isbn, id))
     con.commit()
     con.close()
-
-
-connect()
-#update(2, 'The Terra', 'Mooner Smoother', 2011, 20110001)
-print(view_all())
-
-#insert('The moon', 'Many the Fanny', 1932, 19320001)
-#delete(id=3)
-#print(search(author='John Tablet'))
+    
